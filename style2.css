@@ -57,20 +57,34 @@ p {
 .more-articles {
     font-family: Roboto Slab;
     text-align: left;
+    padding: 0 25px 0 25px;
 }
 
 section {
     display: inline-block;
-    width: 45%;
-    padding: 0 0 0 25px;
+    width: 33%;
+    /* padding: 0 25px 0 25px; */
+    box-sizing: border-box;
+    /* border: solid red; */
+
 }
 
 img {
-    width: 480px;
-    
+    width: 300px;
+    height: 200px;
 }
 
 
 h4 {
     font-size: 1.2em;
+}
+
+footer {
+    color: #777;
+    display: inline-block;
+    text-align: center;
+    font-family: arial;
+    text-decoration: none;
+    padding: auto;
+    width: 100%;
 }
