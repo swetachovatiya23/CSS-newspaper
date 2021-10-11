@@ -43,18 +43,23 @@ p {
     
 }
 
-#pic1 {
+#picture1 {
     width: 100%;
 }
 
 
+  #navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+} 
 
 #main-body {
     padding: 0 15px 25px 15px;
     border-bottom:  1.5px solid gray;
 }
 
-.more-articles {
+.twopictures{
     font-family: Roboto Slab;
     text-align: left;
     padding: 0 25px 0 25px;
